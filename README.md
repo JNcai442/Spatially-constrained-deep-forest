@@ -1,5 +1,6 @@
 # Mapping geo-acoustic distribution of global seafloor sediments via spatially constrained deep random forest
-Zhao-and-Cai-et-al.
+Luanxiao Zhao(School of Ocean and Earth Science, Tongji University) and Jianing Cai (School of Ocean and Earth Science, Tongji University)
+
 1. The zip file provides latitude and longitude data for the global ocean division.
 2. The BinnedData dataset contains labeled P-wave velocity data for seafloor sediments.
 3. The “deepforest” folder provides the source code for the improved spatially constrained deep forest algorithm developed in this study.
