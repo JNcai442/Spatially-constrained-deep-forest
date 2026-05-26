@@ -9,3 +9,4 @@ Specifically, the traditional deep forest model is trained by setting is_spatial
 5. The Vp_LOO_CV.py file implements the regional blind testing procedure. Specifically, the global ocean is partitioned into 77 labeled regions, with each iteration using data from 76 regions for model training and data from one withheld region for validation.
 6. The Vp_Spatially_buffered_5_Flod_CV.py file provides the implementation of spatially buffered five-fold cross-validation. In this procedure, validation samples within a 1° radius of any training sample are excluded before model evaluation, ensuring spatial independence between the training and validation datasets.
 7. The Vp_DF_DataBinning_Slices.py file is used to generate labels for model training.
+Note: This code requires NumPy 1.21.5.
